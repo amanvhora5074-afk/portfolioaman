@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aman Vhora — Professional Portfolio</title>
+  <meta name="description" content="Portfolio of Aman Rajjakbhai Vhora — Mechanical/Production Engineer with automobile foundation, spanning service, quality, and production." />
+  <meta name="theme-color" content="#173ea6" />
+  <style>
+    :root{
+      --brand:#0d1533; --brand-2:#14234c; --text:#0c1428; --muted:#4e5c78;
+      --bg:#f5f7ff; --card:#ffffff; --line:#e1e7f5; --accent:#173ea6; --accent-weak:#eaf0ff;
+      --radius:22px; --shadow:0 16px 42px rgba(10,22,60,.10);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%} html{scroll-behavior:smooth}
+    body{
+      margin:0; font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1000px 600px at -10% -10%, var(--accent-weak), transparent 70%),
+        radial-gradient(1000px 600px at 110% 0%, var(--accent-weak), transparent 70%),
+        var(--bg);
+      line-height:1.72; -webkit-font-smoothing:antialiased;
+    }
+    .container{max-width:1180px;margin:0 auto;padding:0 22px}
+    header{position:sticky;top:0;z-index:40;background:rgba(246,248,255,.9);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{font-weight:900;letter-spacing:.5px;color:var(--brand);font-size:20px}
+    .navlinks a{margin:0 12px;color:var(--muted);text-decoration:none;font-weight:700;transition:color .25s}
+    .navlinks a:hover{color:var(--accent)}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:10px 18px;border-radius:14px;text-decoration:none;font-weight:800;transition:all .25s}
+    .btn.primary{background:var(--accent);color:#fff;box-shadow:var(--shadow)}
+    .btn.primary:hover{background:#0f2e7a}
+    .btn.ghost{border:1px solid var(--line);color:var(--text);background:#fff}
+    .hero{padding:90px 0;background:linear-gradient(135deg,#fafdff 0%,#f0f4ff 100%)}
+    .grid{display:grid;gap:34px}
+    @media(min-width:1000px){.grid-2{grid-template-columns:1.15fr .85fr} .grid-2r{grid-template-columns:.85fr 1.15fr} .grid-3{grid-template-columns:repeat(3,1fr)}}
+    h1{font-size:52px;line-height:1.08;margin:6px 0 14px;color:var(--brand)}
+    h2{font-size:32px;margin:0 0 14px;color:var(--brand)}
+    h3{font-size:20px;margin:0 0 8px;color:var(--brand-2)}
+    p.lead{font-size:20px;color:var(--muted);max-width:680px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .card .pad{padding:30px}
+    .section{padding:50px 0}
+    footer{border-top:1px solid var(--line);margin-top:60px;padding:32px 0;color:var(--muted);font-size:14px;text-align:center}
+    a.link{color:var(--accent);text-decoration:none;transition:color .25s}
+    a.link:hover{text-decoration:underline;color:#0f2e7a}
+    .photo-wrap{display:flex;justify-content:center;align-items:center}
+    .photo{width:260px;height:260px;object-fit:cover;border-radius:50%;border:6px solid #fff;box-shadow:0 26px 60px rgba(12,20,40,.18);transition:transform .35s}
+    .photo:hover{transform:translateY(-6px)}
+    .hr{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);margin:20px 0}
+    .badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin:4px;background:#fff;font-size:14px;color:var(--accent);font-weight:600}
+    .reveal{opacity:0;transform:translateY(14px);transition:all .6s ease}
+    .reveal.show{opacity:1;transform:none}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">AV</div>
+        <div class="navlinks">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#internships">Internships</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#languages">Languages</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container grid grid-2">
+        <div class="reveal show">
+          <h1>Aman Rajjakbhai Vhora</h1>
+          <p class="lead">Mechanical engineer with a strong foundation in automobile engineering and hands‑on experience across service, quality assurance, and production. I focus on process optimisation, ISO‑aligned methods, and practical manufacturing improvements using SolidWorks, AutoCAD, ANSYS, MATLAB, GD&amp;T, and CMM.</p>
+          <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:18px">
+            <a class="btn primary" href="mailto:amanvhora99@gmail.com">Email Me</a>
+            <a class="btn ghost" href="tel:+917573969664">Call</a>
+          </div>
+          <p class="muted" style="margin-top:14px">Nadiad, Gujarat, India · <a class="link" href="mailto:amanvhora99@gmail.com">amanvhora99@gmail.com</a> · <a class="link" href="tel:+917573969664">+91 75739 69664</a></p>
+        </div>
+        <div class="photo-wrap reveal show">
+          <img src="photo.jpg" alt="Aman Vhora" class="photo"
+               onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?><svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;260&quot; height=&quot;260&quot; viewBox=&quot;0 0 260 260&quot;><defs><radialGradient id=&quot;g&quot; cx=&quot;50%&quot; cy=&quot;35%&quot; r=&quot;70%&quot;><stop offset=&quot;0%&quot; stop-color=&quot;%23eaf0ff&quot;/><stop offset=&quot;100%&quot; stop-color=&quot;%23ffffff&quot;/></radialGradient></defs><rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23g)&quot;/><circle cx=&quot;130&quot; cy=&quot;96&quot; r=&quot;44&quot; fill=&quot;%23173ea6&quot; opacity=&quot;.15&quot;/><rect x=&quot;84&quot; y=&quot;156&quot; width=&quot;92&quot; height=&quot;64&quot; rx=&quot;32&quot; fill=&quot;%23173ea6&quot; opacity=&quot;.15&quot;/></svg>';">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>About</h2>
+        <p>I am a process‑minded engineer who learns fastest by building and improving things in real environments. My path began in automobile service, progressed through quality inspection, and matured in production engineering. This journey taught me how diagnostics, measurement, and process design come together on the floor. I prefer clean documentation, parameter windows that operators can trust, and changes that are teachable and repeatable.</p>
+        <p>In design and analysis, I am comfortable with SolidWorks and AutoCAD, and I use ANSYS and MATLAB to reason about tolerances and performance. I read drawings with GD&amp;T and confirm with CMM reports so inspection aligns with design intent. I rely on ISO‑aligned, lean practices to reduce variation and keep processes simple, measurable, and sustainable.</p>
+      </div></div></div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Education</h2>
+        <h3>Gujarat Technological University — Dr. Jivraj Mehta Institute of Technology</h3>
+        <p><em>Bachelor of Engineering in Mechanical Engineering</em>. <strong>CGPA: 8.44</strong>. A rigorous curriculum across advanced manufacturing, thermodynamics, design of machine elements, CAD/CAE, and operations research. Final‑year work focused on pressure vessel testing improvements and solar‑based energy solutions.</p>
+        <div class="hr"></div>
+        <h3>Gujarat Technological University — R.H. Patel Institute of Technology</h3>
+        <p><em>Diploma in Automobile Engineering</em>. <strong>CGPA: 8.80</strong>. Built a practical base in diagnostics, service standards, and workshop practice. Early exposure to industrial documentation and safety discipline translated directly into my quality and production roles.</p>
+        <div class="hr"></div>
+        <h3>St. Anne’s High School</h3>
+        <p><em>Secondary School Certificate (Class X)</em>. <strong>Percentage: 58.67%</strong>. Established the foundation in mathematics and science that underpins further engineering studies.</p>
+      </div></div></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Experience</h2>
+        <h3>Production Engineer — Vikas Industries Pvt. Ltd. (Jul 2025 – Present)</h3>
+        <p>I support CNC and conventional machines by establishing parameter windows, ensuring tooling and gauges match tolerance intent, and partnering with operators and QA to stabilise recurring issues using root‑cause analysis. I contribute to new product introduction trials with a focus on safe procedures and dependable documentation so processes remain repeatable shift after shift.</p>
+        <h3>Junior Production Engineer — Vikas Industries Pvt. Ltd. (Dec 2020 – May 2022)</h3>
+        <p>I assisted with production line setup, monitored process variables, and aligned checks with drawings to contain non‑conformities. The role strengthened my understanding of how throughput, tool life, and quality are connected and how small parameter changes can have large effects on variation.</p>
+        <h3>Quality Inspector — Hardatt Motors (Honda ASC) (Nov 2019 – Nov 2020)</h3>
+        <p>Responsible for post‑service inspections against OEM standards and verification of safety‑critical systems. I learned to write concise, actionable reports and to collaborate closely with technicians to resolve issues quickly and safely.</p>
+        <h3>Service Technician — Progressive Cars Pvt. Ltd. (Aug 2018 – Oct 2019)</h3>
+        <p>I began in service, performing systematic diagnostics with OBD‑II and manual methods. The environment taught discipline, respect for standard operating procedures, and the value of clear communication with customers and teammates.</p>
+      </div></div></div>
+    </section>
+
+    <section id="internships" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Internships</h2>
+        <h3>Teckson Steel Industries (2025)</h3>
+        <p>Gained exposure to steel manufacturing practices with emphasis on QA/QC workflows, metallurgical testing, and documentation. Observed how measurement systems and corrective actions maintain consistency at scale.</p>
+        <h3>Pressovac Engineers (2024)</h3>
+        <p>Hands‑on training around CNC and precision‑turned components. Reinforced tolerance management, gaging, and inspection methods, strengthening the link between design intent and production reality.</p>
+        <h3>AMAR Cars (2017)</h3>
+        <p>Workshop experience in preventive maintenance, diagnostics, and customer handling. The internship provided an early appreciation for disciplined service procedures and safety.</p>
+      </div></div></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Projects</h2>
+        <p><strong>Hydrostatic Test Optimisation for Pressure Vessels.</strong> Investigated pressure imbalance and inconsistent readings during hydrostatic testing. By revising the filling and venting path, improving sensor placement, and writing a clear operating guide, I enabled smoother pressure curves, eliminated nuisance alarms, and cut test time significantly. The project showed how small procedural changes can unlock stable, repeatable results.</p>
+        <p><strong>Solar‑Powered Agricultural Pumping System.</strong> Designed a solar‑driven irrigation system by sizing PV output to pump demand and storage. The approach prioritised simple maintenance and affordable parts so the solution remains reliable in rural settings while reducing operating cost.</p>
+        <p><strong>V‑Shaped Solar Panel Layout.</strong> Modelled how geometry affects irradiance and temperature, then validated a V‑layout that captured more energy than a flat arrangement. The work produced clear, repeatable documentation and demonstrated a measurable efficiency gain.</p>
+      </div></div></div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container grid grid-2">
+        <div class="card reveal"><div class="pad">
+          <h2>Skills — Design & Analysis</h2>
+          <p>I use <strong>SolidWorks</strong> and <strong>AutoCAD</strong> to turn requirements into precise drawings and models suitable for manufacturing and inspection. For analysis I rely on <strong>ANSYS</strong> and <strong>MATLAB</strong> to explore tolerances, loads, and system behaviour, supporting decisions with data rather than guesswork.</p>
+          <div style="margin-top:8px">
+            <span class="badge">SolidWorks</span><span class="badge">AutoCAD</span>
+            <span class="badge">ANSYS</span><span class="badge">MATLAB</span>
+          </div>
+        </div></div>
+        <div class="card reveal"><div class="pad">
+          <h2>Skills — Manufacturing & Quality</h2>
+          <p>On the floor I am comfortable with <strong>CNC</strong> environments and understand how to relate drawing intent to measurement via <strong>GD&amp;T</strong> and <strong>CMM</strong> reports. I follow <strong>ISO 9001</strong> and lean principles to reduce variation and keep instructions simple, teachable, and auditable.</p>
+          <div style="margin-top:8px">
+            <span class="badge">CNC</span><span class="badge">GD&amp;T</span><span class="badge">CMM</span><span class="badge">ISO 9001</span><span class="badge">Lean</span>
+          </div>
+        </div></div>
+      </div>
+    </section>
+
+    <section id="languages" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Languages</h2>
+        <p><strong>Gujarati:</strong> Native proficiency. <strong>Hindi:</strong> Fluent (C2). <strong>English:</strong> Advanced (C1 listening, B2 writing/speaking). <strong>German:</strong> Beginner (A1).</p>
+      </div></div></div>
+    </section>
+
+    <section id="hobbies" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Hobbies & Interests</h2>
+        <p>I enjoy football for its teamwork and discipline, reading technical and motivational literature to keep learning sharp, exploring new technologies, learning languages to broaden communication, and networking with professionals to exchange ideas and perspectives.</p>
+      </div></div></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container"><div class="card reveal"><div class="pad">
+        <h2>Contact</h2>
+        <p>If you would like to discuss roles, research opportunities, or collaborations, feel free to reach out. References and transcripts can be provided on request.</p>
+        <p><a class="btn primary" href="mailto:amanvhora99@gmail.com">Email: amanvhora99@gmail.com</a>
+           <a class="btn ghost" style="margin-left:8px" href="tel:+917573969664">Call: +91 75739 69664</a></p>
+      </div></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="y"></span> Aman Rajjakbhai Vhora • Built with precision and clarity</div>
+  </footer>
+
+  <script>
+    // reveal on scroll
+    const els=document.querySelectorAll('.reveal');
+    const io=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}})},{threshold:.18});
+    els.forEach(el=>io.observe(el));
+    document.getElementById('y').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
